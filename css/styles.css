@@ -8,9 +8,11 @@ body{
 	padding:1%;
 	font-size:150%; */
 	font-family: Verdana, Arial;
-	margin-top: 25px;
+	/* margin-top: 25px;
 	margin-left: 25px; 
-	margin-right: 25px; 
+	margin-right: 25px;  */
+
+	margin: 25px 25px 0 25px;
 }
 
 /* Text is 48px
@@ -32,8 +34,7 @@ Text is 24px
 There is 15px padding on the bottom and left only */
 p {
 	font-size: 24px;
-	padding-left: 15px;
-	padding-bottom: 15px;
+	padding: 0 0 15px 15px;
 }
 
 /* Style the images with the following:
@@ -61,8 +62,8 @@ Have 20px padding on all sides
 Have a 3px solid white border on all sides. */
 
 div {
-	height: 100px;
-	padding: 20px 20px 20px 20px;
+	min-height: 100px;
+	padding: 20px;
 	border: 3px solid white;
 }
 
